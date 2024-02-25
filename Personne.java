@@ -8,6 +8,6 @@ public class Personne {
 
     //méthodes
     public void afficher() {
-        System.out.println(nom + " " + prenom+ " Email : " + email );
+        System.out.println("Nom = " + nom + " Prenom = " + prenom + " Email = " + email + " Date = " + date );
     }
 }

@@ -1,12 +1,28 @@
+import java.util.Scanner;
+
 public class Application {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
         Personne p = new Personne();
-        p.id = 12345678;
-        p.nom = "John";
-        p.prenom = "Doe";
-        p.email = "john@example.com";
-        p.date = "01-01-2000";
-        System.out.println(p);
+
+        System.out.println("ID ?");
+        p.id = scanner.nextInt();
+
+        System.out.println("NOM ?");
+        p.nom = scanner.next();
+
+        System.out.println("PRENOM ?");
+        p.prenom = scanner.next();
+
+        System.out.println("Email ?");
+        p.email = scanner.next();
+
+        System.out.println("Date ?");
+        p.date = scanner.next();
+
         p.afficher();
+
+        scanner.close();
     }
 }
