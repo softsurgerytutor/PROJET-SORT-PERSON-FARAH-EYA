@@ -7,7 +7,11 @@ public class Personne {
     String date; //jj-mm-aaaa
 
     //méthodes
-    public void afficher() {
-        System.out.println("Nom = " + nom + " Prenom = " + prenom + " Email = " + email + " Date = " + date );
+    
+    @Override
+    public String toString() {
+        return "Nom = " + nom + " Prenom = " + prenom + " Email = " + email + " Date = " + date;
     }
+
+
 }

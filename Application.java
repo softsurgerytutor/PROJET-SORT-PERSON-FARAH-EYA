@@ -21,8 +21,8 @@ public class Application {
         System.out.println("Date ?");
         p.date = scanner.next();
 
-        p.afficher();
-
+        System.out.println(p);
+        
         scanner.close();
     }
 }
