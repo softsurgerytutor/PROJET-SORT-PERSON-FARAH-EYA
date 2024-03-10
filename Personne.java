@@ -3,8 +3,8 @@ public class Personne {
     int id = -1;
     String nom = "";
     String prenom = "";
-    String email = "@";
-    String date = "jj/mm/aaaa"; //jj-mm-aaaa
+    String email = "placeholder@placeholder";
+    String date = "jj/mm/aaaa";
 
     //méthodes
     public Personne(int id, String nom, String prenom, String email, String date) {
